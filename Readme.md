@@ -4,11 +4,11 @@ This is my first project demo for .NET core tests trying to test Web API functio
 
 Useful commands to run this project are:
 
-*dotnet new 
-*dotnet run
-*dotnet restore
-*dotnet build
+* dotnet new 
+* dotnet run
+* dotnet restore
+* dotnet build
 
-*dotnet ef migrations remove
-*dotnet ef migrations add InitialCreate
-*dotnet ef database update
+* dotnet ef migrations remove
+* dotnet ef migrations add InitialCreate
+* dotnet ef database update
