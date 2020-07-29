@@ -1,0 +1,139 @@
+{
+	"info": {
+		"_postman_id": "5a97ad47-7e62-4eba-891f-a18ec3374f90",
+		"name": "NETCOREWebAPI",
+		"description": "This is a postman collection for web API .NET core exercises",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Normal Get Request to given URL\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Get With Param",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{Name:\"Juan Perez\",\"Mail\":\"jperex@outlook.com\",\"445566\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/Contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Contacts"
+					]
+				},
+				"description": "Normal Get Request to given URL with provided parameter to obtain specific value\r\n\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Insert",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Name\":\"Juan Perez\",\"Mail\":\"jperex@outlook.com\",\"phone\":\"445566\"}"
+				},
+				"url": {
+					"raw": ""
+				},
+				"description": "Post Method will insert a new value into the DB by getting the web api"
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Id\":5,\"Name\":\"Juan Perez\",\"Mail\":\"jperex@outlook.com\",\"phone\":\"445566\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/Contacts",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Contacts"
+					]
+				},
+				"description": "Post Method will insert a new value into the DB by getting the web api"
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\"Id\":5,\"Name\":\"Juan Perez\",\"Mail\":\"jperex@outlook.com\",\"phone\":\"445566\"}"
+				},
+				"url": {
+					"raw": "http://localhost:5000/Contacts/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						"Contacts",
+						"2"
+					]
+				},
+				"description": "Post Method will insert a new value into the DB by getting the web api"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
