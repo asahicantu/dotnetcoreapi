@@ -9,7 +9,7 @@ namespace SQL.Models
             
         }
 
-        public DbSet<Contacts> ContactsSet{get;set;}
+        public DbSet<Contacts> ContactSet{get;set;}
 
     }
 }

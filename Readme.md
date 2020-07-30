@@ -12,3 +12,9 @@ Useful commands to run this project are:
 * dotnet ef migrations remove
 * dotnet ef migrations add InitialCreate
 * dotnet ef database update
+* dotnet publish -c Release -o ./publish
+
+HTTP Status Code references:
+https://www.restapitutorial.com/httpstatuscodes.html
+
+Postman Queries included
