@@ -1,14 +1,19 @@
 ^ Y
 
+28| 13
+
+Flijo maximo 13[X]
+Expansion minima 28
+
 
 Recorrido de árboles
 Al momento de representar un árbol debemos elegir el orden en el cual vamos a recorrer dicho árbol. Dependiendo de qué orden se elija será la forma en que se va a representar el árbol.
 
 Existen tres formas de recorrer un árbol:
 
-• Pre orden: se inicia leyendo el nodo raíz, luego se pasa al hijo izquierdo y por ultimo al derecho.
-• In orden: inicia leyendo el hijo izquierdo, luego la raíz y por último el hijo derecho.
-• Pos orden: comienza por el hijo izquierdo para posteriormente ir al hijo derecho y por último al nodo raíz.
+• Pre orden: raíz - izquierdo - derecho.
+• In orden:  izquierdo - raíz - derecho.
+• Pos orden: izquierdo - derecho - raíz.
 
 
 

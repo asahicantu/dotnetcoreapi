@@ -382,7 +382,7 @@ Pandas también nos da facilidades para leer datos de disco y escribirlos rápid
 
 ## Estructura de datos: Series
 
-Series es un _vector unidimensional_ (recordemos que los vectores debemos verlos como una lista), para poder acceder a esta lista podemos usar _posiciones_ o _labels_, siendo este último el preferido para manipular las series. Una diferencia importante sobre las _listas_ de Python es que _los datos son homogéneos_, es decir solo podemos tener un tipo de dato por cada Serie.
+Series es un _vector unidimensional_ (recordemos que los vectores debemos verlos como una lista), para poder acceder a esta lista podemos usar _posiciones_ o _labels_, siendo este último el preferido \para manipular las series. Una diferencia importante sobre las _listas_ de Python es que _los datos son homogéneos_, es decir solo podemos tener un tipo de dato por cada Serie.
 
 Las Series se pueden crear a partir de cualquier secuencia(listas, tuplas, arrays de numpy y diccionarios).
 

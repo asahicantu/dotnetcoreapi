@@ -1,0 +1,20 @@
+news_sites:
+  eluniversal:
+    url: https://eluniversal.com.mx
+    queries: 
+        homepage_article_links : '.ce3-Tipo1_Titulo'
+        article_body: '.field-type-text-with-summary'
+        article_title: '.h1'
+  elpais:
+    url: https://elpais.com
+    queries: 
+        homepage_article_links : '.headline'
+        article_body: '.a_b'
+        article_title: '.a_t'
+  milenio:
+    url: https://www.milenio.com
+    queries: 
+        homepage_article_links : '.title'
+        article_body: '.title'
+        article_title: '.media-container'
+    

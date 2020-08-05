@@ -22,3 +22,14 @@
 * https://www.kaggle.com
 
 ## ETL [Extract - Transform - Load]
+
+[Puppeteer](https://github.com/puppeteer/puppeteer)
+
+
+## Page Object Pattern
+Automated tests pattern
+Hides queries and helps to update queries once server page has changed
+
+## Create new Python virtual environment
+
+* python3 -m venv tutorial-env
