@@ -3,18 +3,24 @@ news_sites:
     url: https://eluniversal.com.mx
     queries: 
         homepage_article_links : '.ce3-Tipo1_Titulo'
-        article_body: '.field-type-text-with-summary'
         article_title: '.h1'
+        article_body: '.field-type-text-with-summary'
   elpais:
     url: https://elpais.com
     queries: 
         homepage_article_links : '.headline'
-        article_body: '.a_b'
         article_title: '.a_t'
+        article_body: '.a_b'
   milenio:
     url: https://www.milenio.com
     queries: 
         homepage_article_links : '.title'
-        article_body: '.title'
         article_title: '.media-container'
+        article_body: '.title'
+  sinembargo:
+    url: https://www.sinembargo.mx
+    queries: 
+        homepage_article_links : 'h3 .headline'
+        article_title: 'article .single > header > h1'
+        article_body: 'article .single > section > section .post-content'
     
