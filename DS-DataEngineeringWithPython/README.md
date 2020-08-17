@@ -545,6 +545,8 @@ el_universal.loc[:, 'body':'title'] # Devuelve del principio al final solo body 
 
 Data wrangling es una de las actividades más importantes de todos los profesionales de datos. Simplemente es _limpiar, transformar y enriquecer el dataset_ para objetivos posteriores.
 
+Limpiar, transformar, enriquecer datos
+
 Por ejemplo:
 
 - Inserción en una base de datos

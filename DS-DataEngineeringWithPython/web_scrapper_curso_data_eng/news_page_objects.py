@@ -21,6 +21,7 @@ class NewsPage:
         response. raise_for_status() # Este método nos permite arrojar un error si la solicitud no concluyó exitosamente
 
         self._html = bs4.BeautifulSoup(response.text, 'html.parser')
+        
 
 
 class HomePage(NewsPage):
